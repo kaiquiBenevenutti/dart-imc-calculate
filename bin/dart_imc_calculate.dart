@@ -16,6 +16,8 @@ void main(List<String> arguments) {
   double imc = calculateIMC(pessoa);
 
   print('${pessoa.nome} seu IMC é $imc');
+  print("\n\nPrograma finalizado. Pressione ENTER para sair...");
+  stdin.readLineSync();
 }
 
 double calculateIMC(Pessoa pessoa){
